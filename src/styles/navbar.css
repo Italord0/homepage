@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 40px 25px 50px;
+    box-shadow: 0 0 4px rgba(0,0,0,1);
+    position: fixed;
+    background-color: white;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.nav-links {
+    font-size: 4.5rem;
+    display: flex;
+    font-weight:600;
+}
+
+li:hover{
+    color: red;
+}
